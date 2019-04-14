@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="servletJDBCResultUpdate:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servletJDBCResultUpdate_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="servletJDBCResultUpdate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servletJDBCResultUpdate" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
