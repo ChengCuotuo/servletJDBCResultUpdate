@@ -61,9 +61,9 @@ public class Servlet extends HttpServlet{
         Statement sql;
         ResultSet rs;
         try {
-            String uri = "jdbc:mysql://172.0.0.1/" + dataBase
+            String url = "jdbc:mysql://127.0.0.1/" + dataBase
                     + "?user=root&password=021191&characterEncoding=utf-8";
-            conn = DriverManager.getConnection(uri);
+            conn = DriverManager.getConnection(url);
             sql = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             rs = sql.executeQuery("select * from " + tableName);
             rs.moveToInsertRow();

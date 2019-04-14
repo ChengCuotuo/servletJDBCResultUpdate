@@ -20,12 +20,12 @@
     </style>
   </head>
   <body>
-    <form action="insertServlet?dataBase=chapter11&tableName=produce" method="post">
+    <form action="insertServlet?dataBase=chapter7&tableName=produce" method="post">
       <b>添加新记录</b><br />
       产品号：<input type="text" name="number"/>
       <br/>名称：<input type="text" name="name" />
       <br/>生产日期（日期必须使用 - 或者 / 格式）
-      <br/><input type="text" name="mdadetime"/>
+      <br/><input type="text" name="madeTime"/>
       <br/>价格：<input type="text" name="price" />
       <br /><input type="submit" name="b" value="提交"/>
     </form>
